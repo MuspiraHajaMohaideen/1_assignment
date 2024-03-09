@@ -1,0 +1,53 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Forms</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+
+</head>
+
+<body>
+
+  <div class="container mt-5">
+    <p>Add partner profile</p>
+    <p>Partners are organizations with whom you want to share project information.</p>
+    <form>
+      <div class="form-group">
+        <label for="name">Partner Name<span class="text-danger">*</span></label>
+        <input type="text" class="form-control rounded-input bg-light" id="name" name="name"
+          placeholder="partner company name" required><br>
+
+
+        <label for="Textarea">Description<span class="text-danger">*</span></label>
+        <textarea class="form-control rounded-input bg-light" id="Textarea" name="Textarea" rows="7"></textarea>
+        <small class="form-text text-muted">Provide max 250 character.</small><br>
+
+        <label for="num">Partner Primary Contact<span class="text-danger">*</span></label>
+        <input type="number" class="form-control rounded-input bg-light" id="num" name="num"
+          placeholder="primary contact" required><br>
+
+        <label for="email">Email Address<span class="text-danger">*</span></label>
+        <input type="email" class="form-control rounded-input bg-light" id="email" name="email"
+          placeholder="name@example.com" required>
+        <small class="form-text text-muted">We'll never share your email with anyone else.</small><br>
+
+        <label for="phno">Phone Number<span class="text-danger">*</span></label>
+        <input type="phno" class="form-control rounded-input bg-light" id="phno" name="phno"
+          placeholder="91-80-9878888888" required>
+      </div><br>
+      <div>
+        <button type="submit" class="btn btn-primary">Apply</button>
+        <button type="submit" class="btn btn-primary">Save</button>
+        <button type="submit" class="btn btn-primary">Cancel</button>
+        <button type="submit" class="btn btn-primary">Reset</button>
+      </div><br>
+    </form>
+  </div>
+
+</body>
+
+</html>
